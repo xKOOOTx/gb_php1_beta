@@ -8,9 +8,11 @@ $timeForTask2 = (int)readline("Сколько примерно времени о
 $timeForTask3 = (int)readline("Сколько примерно времени она займет?");
 $summary = $timeForTask1 + $timeForTask2 + $timeForTask3;
 
+$hourSymbol = 'ч.';
+
 echo "$name, сегодня у вас запланировано 3 приоритетных задачи на день:\n
-- $task1 ($timeForTask1 ч.)\n
-- $task2 ($timeForTask2 ч.)\n
-- $task3 ($timeForTask3 ч.)\n
-Примерное время выполнения плана = $summary ч.";
+- $task1 ($timeForTask1$hourSymbol)\n
+- $task2 ($timeForTask2$hourSymbol)\n
+- $task3 ($timeForTask3$hourSymbol)\n
+Примерное время выполнения плана = $summary$hourSymbol";
 
