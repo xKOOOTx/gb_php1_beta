@@ -1,11 +1,11 @@
 <?php
 $name = readline("Привет, как тебя зовут?");
-(string)$task1 = readline("Какая задача предстоит сегодня?");
-$timeForTask1 = (int)readline("Сколько примерно времени она займет?");
-(string)$task2 = readline("Какая еще задача предстоит сегодня?");
-$timeForTask2 = (int)readline("Сколько примерно времени она займет?");
-(string)$task3 = readline("Какая еще задача предстоит сегодня?");
-$timeForTask3 = (int)readline("Сколько примерно времени она займет?");
+$task1 = readline("Какая задача предстоит сегодня?");
+$timeForTask1 = readline("Сколько примерно времени она займет?");
+$task2 = readline("Какая еще задача предстоит сегодня?");
+$timeForTask2 = readline("Сколько примерно времени она займет?");
+$task3 = readline("Какая еще задача предстоит сегодня?");
+$timeForTask3 = readline("Сколько примерно времени она займет?");
 $summary = $timeForTask1 + $timeForTask2 + $timeForTask3;
 
 $hourSymbol = 'ч.';
