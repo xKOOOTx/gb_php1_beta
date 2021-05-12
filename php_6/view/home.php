@@ -3,5 +3,5 @@
     <title>Главная</title>
 </head>
 <body>
-    <h1><?=pageHeader?></h1>
+    <h1><?=$pageHeader?></h1>
 </body>
